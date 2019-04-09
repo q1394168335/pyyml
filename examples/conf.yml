@@ -1,0 +1,3 @@
+# libs:['os', 'os.path:path', 'this']
+os_name: ${os.name}
+base_dir: ${path.abspath(path.dirname(__file__))}
